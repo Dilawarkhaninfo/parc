@@ -31,8 +31,6 @@ import { SendnotificationsComponent } from './sendnotifications/sendnotification
 import { HeaderComponent } from './header/header.component';
 import { MenusComponent } from './menus/menus.component';
 import { PortalviewComponent } from './portalview/portalview.component';
-import { RecaptchaModule, RECAPTCHA_SETTINGS, RecaptchaSettings } from 'ng-recaptcha';
-
 
 @NgModule({
   declarations: [
@@ -69,20 +67,14 @@ import { RecaptchaModule, RECAPTCHA_SETTINGS, RecaptchaSettings } from 'ng-recap
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
     NgxSpinnerModule,
-    AngularEditorModule,
-    RecaptchaModule,
+    AngularEditorModule
 
 
 
 
 
   ],
-  providers: [
-    {
-      provide: RECAPTCHA_SETTINGS,
-      useValue: { siteKey: '6Lcd-SYpAAAAAFQcc9j4fHtNlMKBwHzO7bLJPBYB' } as RecaptchaSettings,
-    },
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
