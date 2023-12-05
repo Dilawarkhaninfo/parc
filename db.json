@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "name": "Fahad Ahmed",
+      "email": "fadii@gmail.com",
+      "city": "Rawalpindi",
+      "pincode": 666,
+      "phonenumber": 3105027918,
+      "id": 1,
+      "pinCode": 11313,
+      "phoneNumber": 12311313
+    },
+    {
+      "name": "Awasi Ahmed Khan ",
+      "email": "fadii@gmail.com",
+      "city": "Rawalpindi",
+      "pincode": 666,
+      "phonenumber": 3105027918,
+      "id": 2,
+      "pinCode": 131,
+      "phoneNumber": 13131
+    }
+  ]
+}

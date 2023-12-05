@@ -1,0 +1,35 @@
+<ngx-spinner bgColor="rgba(51,51,51,0.8)"
+size="medium"
+color="#1fed83"
+type="ball-triangle-path"
+>
+<p style="font-size: 2opx; color: white;">Loading...</p>
+</ngx-spinner>
+
+
+
+<app-header></app-header>
+
+<section>
+  <div class="container-fluid ">
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <app-sidebar></app-sidebar>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <router-outlet></router-outlet>
+    <app-footer></app-footer>
+
+
+  </main><!-- End #main -->
+
+  </div>
+</section>
+
+
+
+
